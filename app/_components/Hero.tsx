@@ -24,7 +24,7 @@ export const Code = ({
 export const Hero = () => {
   return (
     <Section className="flex max-md:flex-col items-start px-4  gap-4">
-      <div className="flex-[2] flex flex-col gap-2">
+      <div className="flex-[3] flex flex-col w-full gap-2">
         <h2 className="font-caption text-5xl text-primary">
           Anne-sophie Marchet
         </h2>
@@ -54,7 +54,7 @@ export const Hero = () => {
           facilis quod autem optio praesentium assumenda voluptates? Dolores!
         </p>
       </div>
-      <div className="flex-1 max-md:m-auto ml-auto">
+      <div className="flex-[2] max-md:m-auto ml-auto">
         <img
           src="https://annesophiemarchet.github.io/assets/Photo%20CV.png"
           alt="picture anne sophie"
