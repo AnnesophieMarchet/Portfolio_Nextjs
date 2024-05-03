@@ -1,6 +1,6 @@
 import React from "react";
-import { Sections } from "./Sections";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Section } from "./Section";
+import { buttonVariants } from "@/components/ui/button";
 import { GithubIcon } from "./icons/GithubIcon";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -10,7 +10,7 @@ import { EmailIcon } from "./icons/EmailIcon";
 export const Header = () => {
   return (
     <header className="sticky top-0 py-4">
-      <Sections className="flex item-baseline ">
+      <Section className="flex item-baseline ">
         <h1 className="text-lg font-bold text-primary">
           https://annesophiemarchet.github.io/
         </h1>
@@ -37,7 +37,7 @@ export const Header = () => {
             <EmailIcon size={12} className="text-foreground" />
           </Link>
         </ul>
-      </Sections>
+      </Section>
     </header>
   );
 };

@@ -5,8 +5,8 @@ export const GithubIcon = (
 ) => {
   return (
     <svg
-      width={props.size}
-      height={props.size}
+      width={props.size ?? 24}
+      height={props.size ?? 24}
       viewBox="0 0 256 250"
       version="1.1"
       preserveAspectRatio="xMidYMid"
