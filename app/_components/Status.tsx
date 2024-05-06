@@ -21,7 +21,7 @@ export const Status = () => {
           <p className="text-lg text-muted-foreground ">Mes projets</p>
           <div
             className="flex  justify-around flex-col gap-4  "
-            style={{ height: "370px" }}
+            style={{ height: "410px" }}
           >
             {SIDE_PORJECTS.map((project, index) => (
               <SideProject

@@ -1,25 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-
-import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
-import { cn } from "@/lib/utils";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-
-export const Code = ({
-  className,
-  ...props
-}: ComponentPropsWithoutRef<"span">) => {
-  return (
-    <span
-      className={cn(
-        " bg-accent/80 font-mono  border-accent p-0.5 rounded-sm text-primary",
-        className
-      )}
-      {...props}
-    ></span>
-  );
-};
+import { Code } from "./Code";
 
 export const Hero = () => {
   return (
