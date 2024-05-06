@@ -22,8 +22,8 @@ export const NextJsLogo = (
           y2="96.0801119%"
           id="nextjsLinearGradient-3"
         >
-          <stop stop-color="currentColor" offset="0%"></stop>
-          <stop stop-color="currentColor" stop-opacity="0" offset="100%"></stop>
+          <stop stopColor="currentColor" offset="0%"></stop>
+          <stop stopColor="currentColor" stopOpacity="0" offset="100%"></stop>
         </linearGradient>
         <linearGradient
           x1="50%"
@@ -32,8 +32,8 @@ export const NextJsLogo = (
           y2="73.4375%"
           id="nextjsLinearGradient-4"
         >
-          <stop stop-color="currentColor" offset="0%"></stop>
-          <stop stop-color="currentColor" stop-opacity="0" offset="100%"></stop>
+          <stop stopColor="currentColor" offset="0%"></stop>
+          <stop stopColor="currentColor" stopOpacity="0" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g>
