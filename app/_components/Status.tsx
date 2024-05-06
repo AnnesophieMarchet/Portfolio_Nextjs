@@ -57,13 +57,15 @@ export const Status = () => {
           {" "}
           <p className="text-lg text-muted-foreground">Contactez-moi</p>
           <ContactCard
+            url="https://www.linkedin.com/in/anne-sophie-marchet-3a9a58269/"
             name="Anne-Sophie Marchet"
             image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
             mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
             description="500 abonné"
           />
           <ContactCard
-            name="annesophiemarchet@gmail.com"
+            url="mailto:annesophiemarchet@gmail.com"
+            name="Mon adresse email"
             image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
             mediumImage="https://thumbs.dreamstime.com/b/logo-gmail-google-llc-applications-de-logotypes-officiels-apps-kiev-ukraine-octobre-199945501.jpg"
             description="email"
