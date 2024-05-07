@@ -7,10 +7,10 @@ import { ContactCard } from "./ContactCard";
 function Contact() {
   return (
     <Section className="flex flex-col  items-start gap-4 py-4">
-      <Badge variant={"outline"}>Skills</Badge>
-      <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+      <Badge variant={"outline"}>Contact</Badge>
+      {/* <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         Contactez-moi
-      </h2>
+      </h2> */}
       <div className="flex max-md:flex-col  w-full gap-4">
         <ContactCard
           className="flex-1 text-sm"

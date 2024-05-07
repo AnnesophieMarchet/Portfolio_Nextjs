@@ -10,7 +10,7 @@ import { TailwindLogo } from "./icons/TailwindLogo";
 function Skills() {
   return (
     <Section className="flex flex-col  items-start gap-4 py-4">
-      <Badge variant={"outline"}>Skills</Badge>
+      <Badge variant={"outline"}>Hard Skills</Badge>
       <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         Ce que je fait
       </h2>

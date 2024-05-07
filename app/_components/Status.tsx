@@ -21,7 +21,7 @@ export const Status = () => {
           <p className="text-lg text-muted-foreground ">Mes projets</p>
           <div
             className="flex  justify-around flex-col gap-4  "
-            style={{ height: "410px" }}
+            style={{ height: "395px" }}
           >
             {SIDE_PORJECTS.map((project, index) => (
               <SideProject
@@ -80,28 +80,28 @@ const SIDE_PORJECTS: SideProjectProps[] = [
     Logo: Code,
     title: "Pokedex",
     description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, placeat?",
+      "Application Pokedex responsive version mobile et desktop. Technologie: React.js/ Css / Méthode Scrum / Eslint.",
     url: "/",
   },
   {
     Logo: BriefcaseBusiness,
     title: "Portfolio",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, saepe.",
+      "Création de mon portfolio. Technologie: TypesScript / Next.js / React.js / Git / Github / Méthode Agile Srum / Eslint.",
     url: "/",
   },
   {
     Logo: Atom,
     title: "Unicorn Quiz",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio.",
+      "Quiz sur les licornes. Technologie : Html / Css / Javascript.",
     url: "/",
   },
   {
     Logo: MessageCircleQuestion,
-    title: "Quizz from Scratch",
+    title: "Mon site internet",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio.",
+      "Développemnt d' un site web sur mon parcour de reconvertion. Tecnologie: Html / Css",
     url: "/",
   },
   // {
