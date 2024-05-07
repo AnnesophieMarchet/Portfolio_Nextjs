@@ -13,7 +13,7 @@ export const Header = () => {
       <header className="sticky top-0 py-4">
         <Section className="flex item-baseline ">
           <h1 className="text-lg font-bold text-primary">
-            www.annesophiemarchet.github.io
+            annesophiemarchet.github.io
           </h1>
           <div className="flex-1 " />
           <ul className="flex items-center gap-4">

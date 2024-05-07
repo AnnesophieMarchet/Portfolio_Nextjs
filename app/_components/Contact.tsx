@@ -7,7 +7,9 @@ import { ContactCard } from "./ContactCard";
 function Contact() {
   return (
     <Section className="flex flex-col  items-start gap-4 py-4">
-      <Badge variant={"outline"}>Contact</Badge>
+      <Badge variant={"outline"} className="text-md">
+        Contact
+      </Badge>
       {/* <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         Contactez-moi
       </h2> */}
@@ -26,15 +28,15 @@ function Contact() {
           name="Mon Github"
           image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
           mediumImage="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
-          description="Mes projets sur Github "
+          description="Repository Github "
         />
         <ContactCard
-          className="flex-1 text-xs"
+          className="flex-1 text-sm"
           url="mailto:annesophiemarchet@gmail.com"
-          name="Click here"
+          name="Contacter moi"
           image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
           mediumImage="https://thumbs.dreamstime.com/b/logo-gmail-google-llc-applications-de-logotypes-officiels-apps-kiev-ukraine-octobre-199945501.jpg"
-          description="Contactez moi sur mon mail"
+          description="Mon adresse mail"
         />
       </div>
     </Section>
