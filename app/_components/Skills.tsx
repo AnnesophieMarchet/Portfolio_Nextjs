@@ -26,8 +26,8 @@ function Skills() {
           />
           <h3 className="text-2xl font-semibold tracking-tight">React</h3>
           <p className="text-sm text-muted-foreground">
-            Je me forme sur <Code>React</Code> comme framework frontend
-            incontournble.
+            Je me forme sur <Code>React</Code>, framework frontend
+            incontournable.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ function Skills() {
           <NextJsLogo size={42} />
           <h3 className="text-2xl font-semibold tracking-tight">Next.js</h3>
           <p className="text-sm text-muted-foreground">
-            Pour le développement backend, j'utilise<Code>Next.js</Code>, un
+            Pour le développement backend, j' utilise <Code> Next.js</Code>, un
             framework robuste et polyvalent.
           </p>
         </div>

@@ -19,11 +19,11 @@ export const Hero = () => {
       icone: <LinkedInLogoIcon className="inline" />,
     },
     {
-      texte: "N'hésitez pas à me contacter.",
+      texte: ". N'hésitez pas à me contacter.",
     },
   ];
 
-  const texte3 = ". N'hésitez pas à me contacter.";
+  const texte3 = " N'hésitez pas à me contacter.";
 
   return (
     <Section className="flex max-md:flex-col items-start px-4 gap-4">
