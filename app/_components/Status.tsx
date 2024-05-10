@@ -101,7 +101,7 @@ const SIDE_PORJECTS: SideProjectProps[] = [
     Logo: MessageCircleQuestion,
     title: "Mon site internet",
     description:
-      "Développemnt d' un site web sur mon parcour de reconvertion. Tecnologie: Html / Css",
+      "Développement d' un site web sur mon parcour de reconvertion. Technologie: Html / Css",
     url: "/",
   },
   // {

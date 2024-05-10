@@ -3,6 +3,7 @@ import { Section } from "./Section";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { Code } from "./Code";
+import Imagephto from "@/app/_components/photo_CV.png";
 
 export const Hero = () => {
   const contenu = [
@@ -22,8 +23,6 @@ export const Hero = () => {
       texte: ". N'hésitez pas à me contacter.",
     },
   ];
-
-  const texte3 = " N'hésitez pas à me contacter.";
 
   return (
     <Section className="flex max-md:flex-col items-start px-4 gap-4">
@@ -46,7 +45,6 @@ export const Hero = () => {
               )}
             </span>
           ))}
-          {texte3}
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
