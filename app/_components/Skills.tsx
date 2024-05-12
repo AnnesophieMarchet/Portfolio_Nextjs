@@ -44,7 +44,7 @@ function Skills() {
           <NextJsLogo size={42} />
           <h3 className="text-2xl font-semibold tracking-tight">Next.js</h3>
           <p className="text-sm text-muted-foreground">
-            Pour le développement backend, j' utilise <Code> Next.js</Code>, un
+            Pour le backend, je développe avec <Code> Next.js</Code>, un
             framework robuste et polyvalent.
           </p>
         </div>
