@@ -3,7 +3,7 @@ import { Section } from "./Section";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import { Code } from "./Code";
-import Imagephto from "@/app/_components/photo_CV.png";
+import ImagePortrait from "./ImagePortrait";
 
 export const Hero = () => {
   const contenu = [
@@ -48,11 +48,12 @@ export const Hero = () => {
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
-        <img
+        {/* <img
           src="https://annesophiemarchet.github.io/assets/Photo%20CV.png"
           alt="photo anne sophie"
           className="w-full h-auto max-w-xs rounded-sm max-md:w-56"
-        />
+        /> */}
+        <ImagePortrait />
       </div>
     </Section>
   );
