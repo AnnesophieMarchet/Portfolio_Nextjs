@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import { Section } from "./Section";
 import { Badge } from "@/components/ui/badge";
 import { ContactCard } from "./ContactCard";
@@ -10,9 +8,7 @@ function Contact() {
       <Badge variant={"outline"} className="text-md">
         Contact
       </Badge>
-      {/* <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        Contactez-moi
-      </h2> */}
+
       <div className="flex max-md:flex-col  w-full gap-4">
         <ContactCard
           className="flex-1 text-sm"
@@ -20,7 +16,7 @@ function Contact() {
           name="Anne-Sophie Marchet"
           image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
           mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
-          description="500 abonné"
+          description="500 abonnés"
         />
         <ContactCard
           className="flex-1 text-sm "

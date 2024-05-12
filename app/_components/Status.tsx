@@ -61,14 +61,14 @@ export const Status = () => {
             name="Anne-Sophie Marchet"
             image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
             mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"
-            description="500 abonné"
+            description="500 abonnés"
           />
           <ContactCard
             url="mailto:annesophiemarchet@gmail.com"
             name="Mon adresse email"
             image="https://media.licdn.com/dms/image/D4D03AQGpUtWKlXCt0w/profile-displayphoto-shrink_400_400/0/1705575348318?e=1720656000&v=beta&t=YzsyEQ3aX8lBQ7Gdz1SfWkn218P6Ye5GJOJA0afC45k"
             mediumImage="https://thumbs.dreamstime.com/b/logo-gmail-google-llc-applications-de-logotypes-officiels-apps-kiev-ukraine-octobre-199945501.jpg"
-            description="email"
+            description="Adresse mail"
           />
         </Card>
       </div>
@@ -80,28 +80,28 @@ const SIDE_PORJECTS: SideProjectProps[] = [
     Logo: Code,
     title: "Pokedex",
     description:
-      "Application Pokedex responsive version mobile et desktop. Technologie: React.js/ Css / Méthode Scrum / Eslint.",
+      "Développement d' un Pokedex responsive mobile et desktop avec l' Api Pokebuild. Stack: React.js/ Css /Git / Github / Eslint / Api Rest.",
     url: "/",
   },
   {
     Logo: BriefcaseBusiness,
     title: "Portfolio",
     description:
-      "Création de mon portfolio. Technologie: TypesScript / Next.js / React.js / Git / Github / Méthode Agile Srum / Eslint.",
+      "Développement de mon portfolio. Stack: TypesScript / Next.js / React.js / Git / Github / Eslint.",
     url: "/",
   },
   {
     Logo: Atom,
     title: "Unicorn Quiz",
     description:
-      "Quiz sur les licornes. Technologie : Html / Css / Javascript.",
+      "Développement d' un quiz sur les licornes. Stack : Html / Css / Javascript / Git / Github.",
     url: "/",
   },
   {
     Logo: MessageCircleQuestion,
     title: "Mon site internet",
     description:
-      "Développement d' un site web sur mon parcour de reconvertion. Technologie: Html / Css",
+      "Développement d' un site web sur mon parcours de reconvertion. Stack: Html / Css /Git / Github.",
     url: "/",
   },
   // {
@@ -135,7 +135,7 @@ const FORMATION_PORJECTS: FormationProps[] = [
     image:
       "https://media.licdn.com/dms/image/D4E0BAQHQ2d_UpqzPHg/company-logo_100_100/0/1688566825101/codecademy_logo?e=1723075200&v=beta&t=nCZ2B8geZQNLBE6pSZYkeQkGctKqREeLRgchTEOBUiU",
     title: "Codecademy",
-    role: " Développeur Back-end",
+    role: " Développeur Back-end Php",
     date: "juillet 2023 - janvier 2024 ",
     url: "https://www.codecademy.com/",
   },

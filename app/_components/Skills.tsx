@@ -14,7 +14,7 @@ function Skills() {
       <Badge variant={"outline"} className="text-md">
         Hard Skills
       </Badge>
-      <h2 className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+      <h2 className=" pb-2 text-3xl font-semibold  text-primary tracking-tight first:mt-0">
         Mes Compétences en Action
       </h2>
       <div className="flex max-md:flex-col gap-4">
@@ -35,8 +35,8 @@ function Skills() {
           <TailwindLogo size={42} />
           <h3 className="text-2xl font-semibold tracking-tight">Tailwind</h3>
           <p className="text-sm text-muted-foreground">
-            J utilise le framework <Code>TailwindCSS</Code> pour créer de belles
-            applications.
+            J' utilise le framework <Code>TailwindCSS</Code> pour créer de
+            belles applications.
           </p>
         </div>
 
