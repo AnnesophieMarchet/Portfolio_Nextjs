@@ -15,14 +15,11 @@ import { FormationProject, FormationProps } from "./FormationProject";
 export const Status = () => {
   return (
     <Section className=" h-full flex max-md:flex-col items-start px-4 w-full gap-4 ">
-      <div className="h-full flex-[3] w-full">
+      <div className="h-full flex-[3] w-full py-4">
         <Card className=" w-full  p-4 flex flex-col gap-2  ">
           {" "}
           <p className="text-lg text-muted-foreground ">Mes projets</p>
-          <div
-            className="flex  justify-around flex-col gap-4  "
-            style={{ height: "395px" }}
-          >
+          <div className="flex  justify-around flex-col gap-4  ">
             {SIDE_PORJECTS.map((project, index) => (
               <SideProject
                 key={index}
