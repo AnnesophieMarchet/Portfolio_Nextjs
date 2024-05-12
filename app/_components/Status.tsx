@@ -29,7 +29,7 @@ export const Status = () => {
                 Logo={project.Logo}
                 title={project.title}
                 description={project.description}
-                url="/"
+                url={project.url}
               />
             ))}
           </div>
@@ -81,28 +81,28 @@ const SIDE_PORJECTS: SideProjectProps[] = [
     title: "Pokedex",
     description:
       "Développement d' un Pokedex responsive mobile et desktop avec l' Api Pokebuild. Stack: React.js/ Css /Git / Github / Eslint / Api Rest.",
-    url: "/",
+    url: "https://github.com/AnnesophieMarchet/React_Pokedex-Api",
   },
   {
     Logo: BriefcaseBusiness,
     title: "Portfolio",
     description:
       "Développement de mon portfolio. Stack: TypesScript / Next.js / React.js / Git / Github / Eslint.",
-    url: "/",
+    url: "https://github.com/AnnesophieMarchet/Portfolio_Nextjs",
   },
   {
     Logo: Atom,
     title: "Unicorn Quiz",
     description:
       "Développement d' un quiz sur les licornes. Stack : Html / Css / Javascript / Git / Github.",
-    url: "/",
+    url: "https://github.com/AnnesophieMarchet/unicorn_quizz",
   },
   {
     Logo: MessageCircleQuestion,
     title: "Mon site internet",
     description:
       "Développement d' un site web sur mon parcours de reconvertion. Stack: Html / Css /Git / Github.",
-    url: "/",
+    url: "https://annesophiemarchet.github.io/",
   },
   // {
   //   Logo: MessageCircleQuestion,
