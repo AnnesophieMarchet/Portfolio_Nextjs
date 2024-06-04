@@ -26,7 +26,7 @@ function Skills() {
           />
           <h3 className="text-2xl font-semibold tracking-tight">React</h3>
           <p className="text-sm text-muted-foreground">
-            Je me forme sur <Code>React</Code>, framework frontend
+            Je me forme sur <Code>React</Code>, bibliothèque JavaScript frontend
             incontournable.
           </p>
         </div>
